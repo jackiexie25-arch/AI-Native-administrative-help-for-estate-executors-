@@ -1,0 +1,96 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+
+  /* Surface 1 — Consumer Executor App: warm, calm, trustworthy */
+  --color-warm-bg: #faf6f0;
+  --color-warm-surface: #ffffff;
+  --color-warm-surface-2: #f3ede2;
+  --color-warm-border: #e6ddcd;
+  --color-warm-primary: #3f6659;
+  --color-warm-primary-dark: #2e4c42;
+  --color-warm-accent: #c97b4a;
+  --color-warm-text: #2b2b28;
+  --color-warm-muted: #7a756c;
+  --color-warm-good: #4c7a5e;
+  --color-warm-warn: #b8863a;
+
+  /* Surface 2 — Enterprise Claims Portal: professional, data-forward */
+  --color-ent-bg: #f2f4f8;
+  --color-ent-surface: #ffffff;
+  --color-ent-border: #dfe3ec;
+  --color-ent-primary: #1d3e80;
+  --color-ent-primary-dark: #142a58;
+  --color-ent-accent: #2f6fe4;
+  --color-ent-text: #1a1f29;
+  --color-ent-muted: #5b6472;
+  --color-ent-good: #1e8e5a;
+  --color-ent-good-bg: #e5f5ec;
+  --color-ent-warn: #b6790f;
+  --color-ent-warn-bg: #fbf0dd;
+  --color-ent-danger: #c0392b;
+  --color-ent-danger-bg: #fbe8e5;
+
+  /* Surface 3 — Law Firm / Trustee Portal: efficient, no-frills */
+  --color-firm-bg: #f6f6f4;
+  --color-firm-surface: #ffffff;
+  --color-firm-border: #e2e2de;
+  --color-firm-primary: #1f2937;
+  --color-firm-accent: #0f766e;
+  --color-firm-accent-bg: #e6f4f2;
+  --color-firm-text: #111827;
+  --color-firm-muted: #6b7280;
+  --color-firm-warn: #b45309;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+
+  --color-warm-bg: var(--color-warm-bg);
+  --color-warm-surface: var(--color-warm-surface);
+  --color-warm-surface-2: var(--color-warm-surface-2);
+  --color-warm-border: var(--color-warm-border);
+  --color-warm-primary: var(--color-warm-primary);
+  --color-warm-primary-dark: var(--color-warm-primary-dark);
+  --color-warm-accent: var(--color-warm-accent);
+  --color-warm-text: var(--color-warm-text);
+  --color-warm-muted: var(--color-warm-muted);
+  --color-warm-good: var(--color-warm-good);
+  --color-warm-warn: var(--color-warm-warn);
+
+  --color-ent-bg: var(--color-ent-bg);
+  --color-ent-surface: var(--color-ent-surface);
+  --color-ent-border: var(--color-ent-border);
+  --color-ent-primary: var(--color-ent-primary);
+  --color-ent-primary-dark: var(--color-ent-primary-dark);
+  --color-ent-accent: var(--color-ent-accent);
+  --color-ent-text: var(--color-ent-text);
+  --color-ent-muted: var(--color-ent-muted);
+  --color-ent-good: var(--color-ent-good);
+  --color-ent-good-bg: var(--color-ent-good-bg);
+  --color-ent-warn: var(--color-ent-warn);
+  --color-ent-warn-bg: var(--color-ent-warn-bg);
+  --color-ent-danger: var(--color-ent-danger);
+  --color-ent-danger-bg: var(--color-ent-danger-bg);
+
+  --color-firm-bg: var(--color-firm-bg);
+  --color-firm-surface: var(--color-firm-surface);
+  --color-firm-border: var(--color-firm-border);
+  --color-firm-primary: var(--color-firm-primary);
+  --color-firm-accent: var(--color-firm-accent);
+  --color-firm-accent-bg: var(--color-firm-accent-bg);
+  --color-firm-text: var(--color-firm-text);
+  --color-firm-muted: var(--color-firm-muted);
+  --color-firm-warn: var(--color-firm-warn);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
